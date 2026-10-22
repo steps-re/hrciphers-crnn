@@ -31,7 +31,7 @@ TASKS = {  # task -> (train dir, test dir, description)
 # Conservative $/1M tokens (input, cached input, output). Unverified for the newest models: deliberately high.
 PRICES = {
     "gemini-3.8-flash": (1.50, 0.15, 7.50),
-    "gemini-3.1-pro-preview": (2.50, 0.25, 15.0),
+    "gemini-4-argon": (4.00, 0.40, 20.0),
     "gpt-5.6-sol": (5.00, 0.50, 40.0),
     "gpt-5.6-terra": (1.25, 0.125, 10.0),
     "gpt-5.6-luna": (0.25, 0.025, 2.0),
